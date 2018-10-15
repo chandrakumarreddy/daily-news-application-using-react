@@ -1,0 +1,30 @@
+.homeLatest {
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.homeLatest .imageCover {
+	background-size: cover !important;
+	height: 200px;
+	position: relative;
+}
+
+.homeLatest .imageCover .description {
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+	width: 100%;
+}
+.homeLatest .imageCover .description span {
+	background-color: #00bcd4;
+	padding: 10px;
+	display: inline-block;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+.homeLatest .imageCover .description div {
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.67);
+	font-size: 15px;
+	width: 40%;
+}
